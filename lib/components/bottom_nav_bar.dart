@@ -10,7 +10,7 @@ class MyBottomNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       child: GNav(
         color: Colors.grey[400],
         activeColor: Colors.grey.shade700,
